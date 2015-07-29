@@ -1,3 +1,5 @@
 <?php
-echo 'hello heroku world';
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://frozen.degoo.org/"); 
+exit();
 ?>
